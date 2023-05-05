@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "spring-boot-webflux-repaso"
+  data:
+    mongodb:
+      uri: "mongodb+srv://user1:user1@micluster.ayfsquj.mongodb.net/?retryWrites=true&w=majority"
+      database: "SystemFacturation"
+      auto-index-creation: true
